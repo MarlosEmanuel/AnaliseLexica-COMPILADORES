@@ -26,9 +26,13 @@ Certifique-se de estar na pasta onde o arquivo do script está salvo (ex: `app.p
 ### Passo 2: Executando o teste
 Utilize o comando abaixo, passando a string que deseja testar como argumento.
 
-**⚠️ Importante:** Como muitos terminais (Linux/Mac/PowerShell) interpretam o símbolo `$` como variável de sistema, é **obrigatório** colocar o valor entre aspas simples (`'...'`).
+**⚠️ Importante:**
+1.  Como terminais Linux/Mac e PowerShell interpretam o símbolo `$` como variável, use **aspas simples** (`'...'`).
+2.  No Windows, o comando padrão costuma ser apenas `python`, enquanto no Linux/Mac é `python3`.
 
 ```bash
-# Sintaxe: python3 nome_do_arquivo.py 'VALOR'
+# Linux / macOS
+$ python3 app.py 'R$1.500,00'
 
-python3 app.py 'R$1.500,00'
+# Windows (CMD ou PowerShell)
+> python app.py 'R$1.500,00'
