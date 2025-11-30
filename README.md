@@ -31,4 +31,4 @@ Utilize o comando abaixo, passando a string que deseja testar como argumento.
 ```bash
 # Sintaxe: python3 nome_do_arquivo.py 'VALOR'
 
-python3 main.py 'R$1.500,00'
+python3 app.py 'R$1.500,00'
