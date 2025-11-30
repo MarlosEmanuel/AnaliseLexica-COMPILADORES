@@ -21,7 +21,7 @@ O objetivo é reconhecer cadeias de caracteres que representem valores monetári
 Este projeto foi desenvolvido para ser executado via linha de comando (terminal). É necessário ter o **Python 3** instalado.
 
 ### Passo 1: Clone ou baixe o repositório
-Certifique-se de estar na pasta onde o arquivo do script está salvo (ex: `main.py` ou `validador.py`).
+Certifique-se de estar na pasta onde o arquivo do script está salvo (ex: `app.py`).
 
 ### Passo 2: Executando o teste
 Utilize o comando abaixo, passando a string que deseja testar como argumento.
