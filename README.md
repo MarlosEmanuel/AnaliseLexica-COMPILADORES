@@ -1,38 +1,47 @@
-# AnaliseLexica-COMPILADORES
+# Portfólio de Compiladores
 
-Trabalho referente a unidade 2 da Disciplina de Compiladores. Este projeto implementa um analisador léxico simples utilizando **Python** e **Expressões Regulares (Regex)** para validar formatos de moeda (valores monetários).
+Este repositório contém as atividades práticas desenvolvidas para a disciplina de **Compiladores**. O projeto está organizado em módulos, onde cada pasta representa uma entrega ou unidade de estudo específica (Análise Léxica e Análise Sintática).
 
-## 📋 Descrição do Problema
+## 👥 Integrantes do Grupo
 
-O objetivo é reconhecer cadeias de caracteres que representem valores monetários válidos, respeitando as seguintes regras léxicas:
+  * **Eduardo Marinho**
+  * **Luiz Henrique**
+  * **Marlos Emanuel**
+  * **Paulo Sérgio**
+  * **Vinicius Eduardo**
 
-* **Símbolo:** Aceita `$` ou siglas de moedas (ex: `R$`, `US$`).
-* **Formato Numérico:**
-    * Aceita separador de milhar com ponto (`.`).
-    * Obriga o uso de vírgula (`,`) para decimais (mínimo 2 casas).
-    * Não aceita zeros à esquerda não significativos (ex: `05,00` é inválido).
-* **Sinais:**
-    * Positivos: `R$10,00`
-    * Negativos com sinal: `-$10,00`
-    * Negativos contábeis (entre parênteses): `(R$10,00)`
+## 📂 Estrutura do Projeto
 
-## 🚀 Como Executar
+O repositório está dividido nas seguintes atividades:
 
-Este projeto foi desenvolvido para ser executado via linha de comando (terminal). É necessário ter o **Python 3** instalado.
+### 1\. [ATIVIDADE\_1](https://www.google.com/search?q=./ATIVIDADE_1)
 
-### Passo 1: Clone ou baixe o repositório
-Certifique-se de estar na pasta onde o arquivo do script está salvo (ex: `app.py`).
+  * **Foco:** Análise Léxica (Validação de formatos monetários).
+  * **Tecnologia:** Python + Regex.
+  * **Descrição:** Implementação de um reconhecedor de padrões para moedas (R$, US$, etc.) respeitando regras de formatação numérica e sinais.
 
-### Passo 2: Executando o teste
-Utilize o comando abaixo, passando a string que deseja testar como argumento.
+### 2\. [ATIVIDADE\_2](https://www.google.com/search?q=./ATIVIDADE_2)
 
-**⚠️ Importante:**
-1.  Como terminais Linux/Mac e PowerShell interpretam o símbolo `$` como variável, use **aspas simples** (`'...'`).
-2.  No Windows, o comando padrão costuma ser apenas `python`, enquanto no Linux/Mac é `python3`.
+  * **Foco:** Análise Sintática (Analisador Descendente Recursivo).
+  * **Tecnologia:** Python.
+  * **Descrição:** Implementação de um parser para validar regras gramaticais de indexação de arrays, variáveis e operações de *slicing*.
+
+-----
+
+## 🚀 Como Navegar
+
+Cada diretório possui seu próprio arquivo `README.md` com instruções detalhadas de como executar o código específico daquela atividade.
+
+Para acessar uma atividade, navegue até a pasta correspondente via terminal:
 
 ```bash
-# Linux / macOS
-$ python3 app.py 'R$1.500,00'
+# Para acessar a Atividade 1
+$ cd ATIVIDADE_1
 
-# Windows (CMD ou PowerShell)
-> python app.py 'R$1.500,00'
+# Para acessar a Atividade 2
+$ cd ATIVIDADE_2
+```
+
+-----
+
+*Disciplina de Compiladores - Semestre 2025.2*
